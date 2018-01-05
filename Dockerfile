@@ -1,4 +1,4 @@
-FROM bemarlon/docker-php:7.0
+FROM marlonbe/docker-php:7.2
 MAINTAINER PHP Marlon <php@marlon.be>
 
 # PHP QA tools
