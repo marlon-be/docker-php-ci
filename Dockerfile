@@ -1,5 +1,5 @@
-FROM fabrizzio/docker-php:7.0
-MAINTAINER Dieter Provoost <dieter.provoost@marlon.be>
+FROM bemarlon/docker-php:7.0
+MAINTAINER PHP Marlon <php@marlon.be>
 
 # PHP QA tools
 RUN apt-get install -y -f --force-yes ant sqlite3 git-core && \
