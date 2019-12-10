@@ -1,4 +1,4 @@
-FROM marlonbe/docker-php:7.3
+FROM marlonbe/docker-php:7.4
 MAINTAINER PHP Marlon <php@marlon.be>
 
 RUN apt-get update && \
@@ -7,6 +7,6 @@ RUN apt-get update && \
 
 RUN curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
 
-ADD php.ini /etc/php/7.3/cli/conf.d/
+ADD php.ini /etc/php/7.4/cli/conf.d/
 
 ENV PATH /root/.composer/vendor/bin:$PATH
